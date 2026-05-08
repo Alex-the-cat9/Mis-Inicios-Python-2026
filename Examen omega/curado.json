@@ -1,0 +1,16 @@
+[
+    {
+        "usuarios_limpios": [
+            "Alex",
+            "Admin"
+        ],
+        "lista_limpia": [
+            100,
+            500
+        ],
+        "ips_limpio": [
+            "192.168.1.1",
+            "10.0.0.5"
+        ]
+    }
+]
