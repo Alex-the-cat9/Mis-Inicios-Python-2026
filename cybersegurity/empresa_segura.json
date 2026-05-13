@@ -1,0 +1,9 @@
+{
+    "banco": 5000,
+    "empleados": {
+        "alex": "desarrollador",
+        "alexis": "limpieza",
+        "xd": "vigilante",
+        "prro": "vigilante"
+    }
+}
