@@ -1,1 +1,0 @@
-herencias multiples
