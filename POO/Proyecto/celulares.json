@@ -1,0 +1,26 @@
+{
+    "DINERO": 900,
+    "vendidos": [
+        {
+            "PANTALLA": "BAJA",
+            "NUCLEO": "MEDIA",
+            "MEMORIA": "56G",
+            "CAMARAFRONTAL": "MEDIA",
+            "CAMARATRASERA": "MEDIA"
+        },
+        {
+            "PANTALLA": "potente",
+            "NUCLEO": "MUY POTENTE",
+            "MEMORIA": "infinit",
+            "CAMARAFRONTAL": "lo mas posible",
+            "CAMARATRASERA": "igual que la frontal"
+        },
+        {
+            "PANTALLA": "nose",
+            "NUCLEO": "nose",
+            "MEMORIA": "nose",
+            "CAMARAFRONTAL": "nose",
+            "CAMARATRASERA": "nose"
+        }
+    ]
+}
