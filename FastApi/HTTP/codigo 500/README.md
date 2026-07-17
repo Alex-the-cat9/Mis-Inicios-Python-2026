@@ -1,0 +1,1 @@
+codigos 500 errores del servidor
