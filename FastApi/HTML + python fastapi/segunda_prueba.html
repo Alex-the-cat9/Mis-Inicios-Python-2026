@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda prueba fronted</title>
+</head>
+<body>
+
+    <!-- SECCIÓN 1: El botón de inicio para interactuar -->
+    <h1>PANEL DE CONTROL PRINCIPAL</h1>
+
+    <hr> <!-- Línea divisoria en HTML puro -->
+
+    <!-- SECCIÓN 2: Las cosas que tu modelo de Pydantic le va a pedir al usuario -->
+    <div>
+        <h2>Formulario de Datos (Parámetros Pydantic)</h2>
+        
+        <!-- action apuntará a tu API de FastAPI en el futuro. Usamos httpbin para probar el POST -->
+        <form action="http://127.0.0.1:8000/crear-item" method="POST">
+            
+            <!-- Campo 1: Lo que Pydantic leerá como un string -->
+            <div>
+                <label>Nombre del Item (String):</label><br>
+                <input type="text" name="nombre_item" required placeholder="ej. Servidor_Proxy">
+            </div>
+
+            <br>
+
+            <!-- Campo 2: Lo que Pydantic leerá como un integer (número entero) -->
+            <div>
+                <label>Puerto de Red (Integer):</label><br>
+                <input type="number" name="puerto" required placeholder="ej. 8080">
+            </div>
+
+            <br>
+
+            <!-- El botón que dispara el método POST hacia la API -->
+            <button type="submit">ENVIAR POST A LA API</button>
+
+        </form>
+    </div>
+
+    <hr>
+    <!-- SECCIÓN 3: El cuadro donde se mostrará la respuesta de la API -->
+    <div>
+        <h3>Estado de la Solicitud:</h3>
+        
+        <!-- En HTML puro, esta caja se deja lista para que FastAPI le inyecte la respuesta -->
+        <fieldset>
+            <legend>La API respondió:</legend>
+            
+            <pre>
+                <!-- Aquí es donde tu código de Python pintará el JSON de respuesta -->
+                Esperando envío de datos...
+            </pre>
+            
+        </fieldset>
+    </div>
+
+</body>
+</html>
+<!--*despues de una larga conversacion con maestro.IA y explicacion de linea por linea Alex entendio el codigo*-->
+<!--Alex:si pero donde esta el comando que atrapa lo que la api le dara y lo pondra en ese cuadro -->
+<!--Maestro.IA:La respuesta corta y directa es: En este archivo HTML no existe ningún comando que atrape la respuesta y la meta ahí.
+Por eso, dentro del <pre>, dejamos escrito el texto fijo "Esperando envío de datos...". HTML puro es completamente "ciego" y "sordo";
+no tiene el superpoder de escuchar a internet, atrapar datos ni modificar el texto de la pantalla por sí mismo.-->
+<!--Alex:en ese entonces ayque conectar html con python y los botones que rellene seran en formato json que enviaran a python y en python
+cliente.py con request atrapara todo lo que conectamos y el hablara con otro archivo python que es la api fastapi atrapara lo que le dice la api
+y le devolvera a html para que lo ponga en su cuadro son 3 archivos 1:servidor.py es la api 2:cliente.py es el traductor que recibe y envia y devuelve 3:html aqui se escrite el json-->
+<!--maestro.IA:¡BUM! ¡Lo lograste!-->
+<!--Alex:sabes tengo una idea mejor eh hablado con otra IA y me dijo algo sobre una libreria con esto solo seran 2 archivos-->
