@@ -1,0 +1,40 @@
+<!--Alex:I did all this all by myself hehe.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRES</title>
+</head>
+<body>
+    <h1>SISTEMA DE ENVIO DE DATOS</h1>
+    <hr>
+    <form action="http://127.0.0.1:8000/crear-item" method="post">
+        <div>
+           <label>TU nombre:</label><br>
+           <input type="text" name="Nombre" required> 
+        </div>
+        <div>
+            <label>TU edad::</label><br>
+            <input type="number" name="edad" required>
+        </div>
+        <br>
+        <div>
+            <button>ENVIAR</button>
+        </div>
+    </form>
+    <hr>
+    <h3>ESTADO DE SOLICITUD</h3>
+    <fieldset>
+        <legend>LA API RESPONDIO:</legend>
+        <pre>
+            {% if dat %}
+  "Bienvenido {{dat.Nombre}} ya estas registrado :D"
+{% else %}
+            Esperando DATOS
+{% endif %}
+        </pre>
+    </fieldset>
+
+</body>
+</html>
