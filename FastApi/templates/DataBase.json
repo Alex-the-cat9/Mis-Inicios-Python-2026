@@ -1,0 +1,14 @@
+{
+    "Alex": {
+        "Salt": "325c19c59ad36ee0d0fd7b3ba9f89115",
+        "password_hash": "dc836c6d346f2db17604d060d1b1f002689e0ce7dd0be599bc81fa345cba6fa4"
+    },
+    "Maria": {
+        "Salt": "1ae361c298deb437b7aac0bf47777284",
+        "password_hash": "bfa40ce1036c885acb377e2b15bb455e09220226c208df60cc2e9147bd6ffe2e"
+    },
+    "Pedro": {
+        "Salt": "3fc77d1f31e2e09826cb0c4364451657",
+        "password_hash": "a25dd60608a3b0dc55fd4d45564d92b348cc5f2ca7bfdef8a01395306fe34b0b"
+    }
+}
