@@ -1,1 +1,1 @@
-# Ejercicios de Listas en Python.
+# Ejercicios de Listas en Python
