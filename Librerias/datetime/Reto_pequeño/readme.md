@@ -1,1 +1,1 @@
-aqui pienso hacer un sistema pequeño pero funciona
+te registra en la fecha que te registraste
