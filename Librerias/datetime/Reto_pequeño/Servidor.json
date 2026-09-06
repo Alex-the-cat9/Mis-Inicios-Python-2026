@@ -1,0 +1,37 @@
+{
+    "Alex": [
+        {
+            "contraseÃƒÂ±a": "891021",
+            "version": "prime",
+            "se registro en": "Dia:03 hora:22:44 mes:09 aÃƒÂ±o:2026"
+        }
+    ],
+    "alexander": [
+        {
+            "contraseña": "22211112",
+            "version": "Normal",
+            "se registro en": "Dia:03 hora:22:54 mes:09 año:2026"
+        }
+    ],
+    "mark": [
+        {
+            "contraseña": "192990",
+            "version": "Normal",
+            "se registro en": "Dia:03 hora:22:54 mes:09 año:2026"
+        }
+    ],
+    "martes": [
+        {
+            "contraseña": "019212",
+            "version": "Normal",
+            "se registro en": "Dia:03 hora:22:54 mes:09 año:2026"
+        }
+    ],
+    "nacho": [
+        {
+            "contraseña": "32013",
+            "version": "Normal",
+            "se registro en": "Dia:03 hora:22:54 mes:09 año:2026"
+        }
+    ]
+}
