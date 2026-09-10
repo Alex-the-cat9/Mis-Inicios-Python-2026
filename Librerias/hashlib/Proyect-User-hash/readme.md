@@ -1,0 +1,1 @@
+en este proyecto aremo un sistema en donde cada usuario se va a registrar y le otorgaremos su propio salt para que pueda iniciar sesion
